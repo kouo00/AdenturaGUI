@@ -1,5 +1,5 @@
 /* The file is saved in UTF-8 codepage.
- * Check: Â«StereotypeÂ», Section mark-Â§, Copyright-Â©, Alpha-Î±, Beta-Î˛, Smile-â�ş
+ * Check: «Stereotype», Section mark-§, Copyright-©, Alpha-α, Beta-β, Smile-☺
  */
 package eu.pedu.adv17s._4_1100.kouo00_koutecky;
 
@@ -26,7 +26,7 @@ import java.util.Collection;
  * which are not yet fully defined and serve only for completion
  * of the scenario managers features, which needs cooperation with the game.
  *
- * @author  Rudolf PECINOVSKĂť
+ * @author  Rudolf PECINOVSKÝ
  * @version 2017-Summer
  */
 public   class PotionGame
@@ -86,10 +86,8 @@ public   class PotionGame
      */
     private PotionGame()
     {
-        super("Vaším úkolem je najít věci potřebné k uvaření lektvaru, poté ho"
-        		+ " uvařit nad ohništěm, dát ho vypít blondýnce a na závěr ji "
-        		+ "věnovat polibek. Pozor! Ne všechny předměty, které lze"
-        		+ " najít, do lektvaru patří!");
+        super("najdete veci k uvareni lektvaru, pote ho dejte blondynce "
+                + "a polibte ji");
     }
 
 

@@ -1,5 +1,5 @@
 /* The file is saved in UTF-8 codepage.
- * Check: Â«StereotypeÂ», Section mark-Â§, Copyright-Â©, Alpha-Î±, Beta-Î˛, Smile-â�ş
+ * Check: «Stereotype», Section mark-§, Copyright-©, Alpha-α, Beta-β, Smile-☺
  */
 package eu.pedu.adv17s._4_1100.kouo00_koutecky;
 
@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
  * <p>
  * In this game the world is ...
  *
- * @author  Rudolf PECINOVSKĂť
+ * @author  Rudolf PECINOVSKÝ
  * @version 2017-Summer
  */
 public   class Potion
@@ -158,8 +158,7 @@ private Collection<String> nevideno;
     
     public String getVeciKolekce(){
         String odpoved = nevideno.stream()
-                .collect(Collectors.joining(", ", "\nPředměty, na které jste zaím nenarazili: [", "]"
-                		+ "\n__________________________________DALŠÍ PŘÍKAZ__________________________________\n"));
+                .collect(Collectors.joining(", ", "§Not seen: [", "]"));
         return odpoved;
     }
     

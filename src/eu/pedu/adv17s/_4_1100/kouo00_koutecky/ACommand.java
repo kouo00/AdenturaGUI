@@ -137,10 +137,8 @@ abstract class ACommand
     {
         String answer;
             if (command.isEmpty()) {
-            answer = ("Vaším úkolem je najít věci potřebné k uvaření lektvaru, poté ho"
-            		+ " uvařit nad ohništěm, dát ho vypít \nblondýnce a na závěr ji "
-            		+ "věnovat polibek. Pozor! Ne všechny předměty, které lze"
-            		+ " najít, do lektvaru patří!");
+            answer = "najdete veci k uvareni lektvaru, pote ho dejte"
+                    + " blondynce a polibte ji";
                     isAlive = true;
                initialize();
             }

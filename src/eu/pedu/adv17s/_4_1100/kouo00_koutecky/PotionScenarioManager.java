@@ -1,5 +1,5 @@
 /* The file is saved in UTF-8 codepage.
- * Check: Â«StereotypeÂ», Section mark-Â§, Copyright-Â©, Alpha-Î±, Beta-Î˛, Smile-â�ş
+ * Check: «Stereotype», Section mark-§, Copyright-©, Alpha-α, Beta-β, Smile-☺
  */
 package eu.pedu.adv17s._4_1100.kouo00_koutecky;
 
@@ -41,7 +41,7 @@ import static eu.pedu.adv17s_fw.scenario.TypeOfStep.*;
  * Scenario manager is a singleton, that is responsible
  * for all scenarios concerning the game associated with it.
  *
- * @author  Rudolf PECINOVSKĂť
+ * @author  Rudolf PECINOVSKÝ
  * @version 2017-Summer
  */
 public   class PotionScenarioManager
@@ -80,7 +80,7 @@ String[]   bag;        //Current bag content
      * <br>
      **************************************************************************/
      public static final ScenarioStep START_STEP =
-        new ScenarioStep(0, tsSTART, "", //NĂˇzev spouĹˇtÄ›cĂ­ho pĹ™Ă­kazu = ""
+        new ScenarioStep(0, tsSTART, "", //Název spouštěcího příkazu = ""
             "najdete veci k uvareni lektvaru, pote ho "
                     + "dejte blondynce a polibte ji"
             ,
@@ -439,7 +439,7 @@ String[]   bag;        //Current bag content
 "              date napit blondynce\n" +
 "              \n" +
 "              polozit\n" +
-"              PomocĂ­ tohoto pĹ™Ă­kazu polozite vec do prostoru.\n" +
+"              Pomocí tohoto příkazu polozite vec do prostoru.\n" +
 "              \n" +
 "              naplnit\n" +
 "              naplnuju jste lahvicku vodou z jezera\n" +
@@ -451,7 +451,7 @@ String[]   bag;        //Current bag content
 "              uvarit item lahvicka_se_surovinami\n" +
 "              \n" +
 "              sebrat\n" +
-"              PomocĂ­ tohoto pĹ™Ă­kazu vezme hrĂˇÄŤ vÄ›c a vloĹľĂ­ ji dobatohu."
+"              Pomocí tohoto příkazu vezme hráč věc a vloží ji dobatohu."
             ,
             "louka",
             new String[] { "stan", "uskali", "haj", "plaz"},
@@ -667,7 +667,7 @@ private static final ScenarioStep[] REQUIRED_STEPS =
 "              date napit blondynce\n" +
 "              \n" +
 "              polozit\n" +
-"              PomocĂ­ tohoto pĹ™Ă­kazu polozite vec do prostoru.\n" +
+"              Pomocí tohoto příkazu polozite vec do prostoru.\n" +
 "              \n" +
 "              naplnit\n" +
 "              naplnuju jste lahvicku vodou z jezera\n" +
@@ -679,7 +679,7 @@ private static final ScenarioStep[] REQUIRED_STEPS =
 "              uvarit item lahvicka_se_surovinami\n" +
 "              \n" +
 "              sebrat\n" +
-"              PomocĂ­ tohoto pĹ™Ă­kazu vezme hrĂˇÄŤ vÄ›c a vloĹľĂ­ ji dobatohu.",
+"              Pomocí tohoto příkazu vezme hráč věc a vloží ji dobatohu.",
         "stan",
             new String[] { "louka"},
             new String[] {"lahvicka" , "spacak" , "polstarek"},
@@ -794,7 +794,7 @@ private static final ScenarioStep[] REQUIRED_STEPS =
      * are therefore only formal, because the called method assignes to them
      * the names defined in advance in appropriate constants.
      * <p>
-     *Â´Contract of the
+     *´Contract of the
      * {@link #addScenario(String, TypeOfScenario, ScenarioStep...)} method
      * requires so that the happy scenario, i.e. scenario of the
      * {@link TypeOfScenario.scHAPPY}) type, would be added as the first one,
