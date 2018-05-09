@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AdventurkaGui.jnlp">
+  <information>
+    <title>AdventurkaGui</title>
+    <vendor>Hed94</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AdventurkaGui.jar" size="664901" download="eager" />
+    <jar href="lib\Adv_17s_FW.jar" size="830769" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AdventurkaGui" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="eu.pedu.adv17s._4_1100.kouo00_koutecky.main.GuiAdventura"  name="AdventurkaGui" />
+  <update check="always"/>
+</jnlp>
